@@ -1,0 +1,21 @@
+apt install python3-pip python3-django
+apt install python3-venv
+
+python3.8 -m venv backend_env
+source backend_env/bin/activate
+
+pip install django-cors-headers
+pip install django-rest-framework
+pip install requests
+pip install pymongo
+pip install redis
+pip install django-jsoneditor
+pip install jsonfield
+pip install djangorestframework-simplejwt
+pip install django-ipware
+pip install django-slugify-processor
+pip install python-dateutil
+pip install pycrypto
+pip install channels
+
+python manage.py migrate
